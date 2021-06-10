@@ -26,6 +26,7 @@ class CreateUserTable extends Migration
             $table->date('birthday');
             $table->string('portrait', 255);
             $table->string('avatar', 255);
+            $table->string('alt', 255);
             $table->rememberToken();
             $table->timestamps();
 
